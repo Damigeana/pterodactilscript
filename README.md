@@ -1,7 +1,7 @@
 # pterodactilscript
 This script should be ran on a properly setup server not under root.
 
-curl -Lo install.sh https://github.com/Damigeana/pterodactilscript/blob/master/install.sh
+bash <(curl -sSL https://raw.githubusercontent.com/Damigeana/pterodactilscript/master/install.sh)
 bash install.sh -i [nginx] [apache]
 i.e. bash install.sh -i nginx
 
